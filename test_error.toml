@@ -1,0 +1,6 @@
+[package]
+name = "broken"
+version = "WRONG"
+
+[dependencies
+serde := "BAD"

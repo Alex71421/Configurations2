@@ -1,0 +1,8 @@
+[package]
+name = "mytestpkg"
+version = "1.0.0"
+
+[dependencies]
+skibidi = "6"
+ohio = "7"
+rizz = "9"
