@@ -1,0 +1,14 @@
+# ошибка неверная ссылка
+python  main.py --package test --source test --test-mode 1 --version 1 --output test --filter test
+
+# ошибка нет сурса
+python  main.py --test-mode 1 --version 1 --output test --filter test
+
+# ошибка нет версии
+python  main.py --source https://raw.githubusercontent.com/Alex71421/Configurations2/master/test_success.toml
+
+# корректный пакет
+python main.py --package mytestpkg --version 1.0.0 --source https://raw.githubusercontent.com/Alex71421/Configurations2/master/test_success.toml
+
+# пакет с другой версией
+python main.py --package broken --version 1.0.0 --source https://github.com/Alex71421/Configurations2/blob/master/test_error.toml
